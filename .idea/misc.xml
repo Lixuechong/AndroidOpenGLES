@@ -4,6 +4,19 @@
     <asm skipDebug="false" skipFrames="false" skipCode="false" expandFrames="false" />
     <groovy codeStyle="LEGACY" />
   </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_fglview.xml" value="0.1702127659574468" />
+        <entry key="app/src/main/res/layout/activity_list.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/activity_picture.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/item_button.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/item_choose.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/menu/menu_filter.xml" value="0.36302083333333335" />
+      </map>
+    </option>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
