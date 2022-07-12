@@ -1,0 +1,47 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+static def getVersionCode() {
+    return 1
+}
+
+static def getVersionName() {
+    return "1.0"
+}
+
+static def getApplicationId() {
+    return "com.example.androidopengles"
+}
+
+android {
+    compileSdk rootProject.compileSdk
+
+    defaultConfig {
+        applicationId getApplicationId()
+        minSdk rootProject.minSdk
+        targetSdk rootProject.targetSdk
+        versionCode getVersionCode()
+        versionName getVersionName()
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+}
